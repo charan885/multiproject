@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>customer login example</title>
+      <script type="text/javascript" src="scripts.js"></script>
+      <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+     <header>
+         <h1>Welcome to ABC shopping</h1>
+         <nav>
+            <a href="index.html">
+                Home
+            </a>   |
+            <a href="about.html">
+                 About
+            </a>  |
+              <a href="contact.html">
+                ContactUs
+              </a> |
+              <a href="#">
+                Customer Login
+              </a> |
+
+              <a href="customerregistration.html">
+                Customer Registration
+              </a> |
+
+              <a href="CustomerList">
+                Customer Data
+              </a> 
+         </nav>
+     </header>
+     <hr>
+     <form name="studentform" action="CustomerLoginServlet" method="GET" >
+          <table border="2px" align="center" bgcolor="yellow" cellspacing="15px" cellpadding="10px">
+             <caption>Customer Login Form</caption>
+              <tr>
+                  <td><label for="userid">Customer Id</td>
+                  <td><input type="text" id="userid" name="userid"></td>
+              </tr>
+              <tr>
+                  <td><label for="passwordid">Password</td>
+                  <td><input type="password" id="passwordid" name="passwordname"></td>
+              </tr>
+              
+              <tr>
+                  <td><input type="submit" name="submit" id="submit" value="submit"></td>
+                  <td><input type="reset" name="submit" id="submit" value="clear"></td>
+              </tr>
+          </table>
+     </form>
+     <br><br>
+     <hr>
+     <footer>
+         <h3>Copyright@Sai</h3>
+     </footer>   
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>customer registration example</title>
+      <script type="text/javascript" src="./scripts.js"></script>
+      <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+     <header>
+         <h1>Welcome to ABC shopping</h1>
+         <nav>
+            <a href="index.html">
+                Home
+            </a>   |
+            <a href="about.html">
+                 About
+            </a>  |
+              <a href="contact.html">
+                ContactUs
+              </a> |
+              <a href="customerlogin.html">
+                Customer Login
+              </a> |
+
+              <a href="#">
+                Customer Registration
+              </a> |
+
+              <a href="CustomerList">
+                Customer Data
+              </a> 
+         </nav>
+     </header>
+     <hr>
+     <form name="studentform" action="CustomerRegServlet" method="GET">
+          <table border="2px" align="center" bgcolor="yellow" cellspacing="15px" cellpadding="10px">
+             <caption>Customer Registration Form</caption>
+              <tr>
+                  <td><label for="username">Name</label></td>
+                  <td><input type="text" id="username" name="username" onblur="sfullname()"></td>
+              </tr>
+              <tr>
+                  <td><label for="cid">Customer Id</td>
+                  <td><input type="text" id="cid" name="cid"></td>
+              </tr>
+              <tr>
+                  <td><label for="passwordid">Password</td>
+                  <td><input type="password" id="passwordid" name="passwordname"></td>
+              </tr>
+            <!--   <tr>
+                  <td><label for="cpasswordid">Confirm Password</td>
+                  <td><input type="password" id="cpasswordid" name="cpasswordname"></td>
+              </tr> -->
+              <tr>
+                  <td><label for="phone">Phone</td>
+                  <td><input type="text" id="phone" name="phone"></td>
+              </tr>
+                 <tr>
+                  <td><label for="city">City</td>
+                  <td><input type="text" id="city" name="city"></td>
+              </tr>
+             <!--   <tr>
+                  <td><label for="dobid">DOB</td>
+                  <td><input type="date" id="dobid" name="dobname"></td>
+              </tr>
+              <tr>
+                  <td><label for="gid">Gender</td>
+                  <td><input type="radio" value="Male" id="gid" name="gname">Male &nbsp; 
+                    <input type="radio" value="Female" id="gid" name="gname">Female &nbsp; 
+                    <input type="radio" value="others" id="gid" name="gname">others &nbsp;</td>
+              </tr>-->
+              <tr>
+                  <td><label for="shopid">InterestedIn</td>
+                  <td><input type="checkbox" value="Clothes" id="shopid" name="shopname">Clothes&nbsp;
+                    <input type="checkbox" value="Electronics" id="shopid" name="shopname">Electronics&nbsp;
+                    <input type="checkbox" value="Arts" id="shopid" name="shopname">Arts&nbsp;</td>
+              </tr>
+            <!--   <tr>
+                  <td><label for="qid">Qualification</td>
+                  <td><select id="qid" name="qname"  >
+                          <option value="Select Any Degree">Select Any Degree</option>
+                          <option value="UG" >UG</option>
+                          <option value="PG">PG</option>
+                          <option value="Ph.D">Ph.D</option>
+                      </select></td>
+              </tr> -->
+            <!--  <tr>
+                  <td><label for="addrid">Address</td>
+                  <td><textarea   name="addrname" id="addrid" rows="10" cols="20" >  </textarea></td>
+              </tr>
+               <tr>
+                  <td><label for="fileid">Upload Resume</td>
+                  <td><input type="file" id="fileid" name="fname"></td>
+              </tr> -->
+              <tr>
+                  <td><input type="submit" name="submit" id="submit" value="submit"></td>
+                  <td><input type="reset" name="submit" id="submit" value="clear"></td>
+              </tr>
+          </table>
+     </form>
+     <br><br>
+     <hr>
+     <footer>
+         <h3>Copyright@Sai</h3>
+     </footer>   
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body{
+	
+	background-image: url("sunset.jpg");
+}
+
+header,footer{
+	border: 2px solid green;
+	text-align: center;
+	color: white;
+	background-color: aqua;
+}
+table {
+	align-items: center;
+}
+tr {
+	color: white;
+	background-color: brown;
+}
+a {
+	font-size: 30px;
+}
+input {
+	padding: 10px;
+}
+label {
+	color: chartreuse;
+}
